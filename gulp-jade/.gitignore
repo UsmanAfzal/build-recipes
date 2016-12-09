@@ -1,0 +1,6 @@
+.tmp
+bower_components
+dist
+idea
+node_modules
+test/bower_components

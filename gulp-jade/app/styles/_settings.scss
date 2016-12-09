@@ -1,0 +1,94 @@
+// ----------------------------------------------------------------------------
+// Colors
+// ----------------------------------------------------------------------------
+
+// sector colours
+$sector-1:                  #000000;
+$sector-2:                  #000000;
+$sector-3:                  #000000;
+
+// brand colors
+$brand-1:                   #cccccc;
+$brand-2:                   #cccccc;
+$brand-3:                   #cccccc;
+$brand-4:                   #cccccc;
+
+// other colors
+$white:						#ffffff;
+
+// tint colors
+$tint-1:					#f5f3f2;
+$tint-2:					#ebe8e4;
+$tint-3:					#e8e4df;
+
+// typography colors
+$base-color:                $brand-one;
+$title-color:               $brand-two;
+$link-color:                $brand-four;
+$link-color-hover:          darken($link-color, 10%);
+
+// ----------------------------------------------------------------------------
+// Typography
+// ----------------------------------------------------------------------------
+
+// base setting
+$base-font-family:			'Open Sans', sans-serif;
+$base-size:                 1.4;
+
+// headings
+$h1:                        3.0;
+$h2:                        2.2;
+$h3:                        1.5;
+$h4:                        1.5;
+$h5:                        1.2;
+
+// headings alternative
+$h2-hero:   	            3.7;
+$h3-promo:                  3.0;
+
+// font weights
+$extra-bold:                800;
+$bold:                      700;
+$semi-bold:                 600;
+$normal:                    400;
+$light:                     300;
+
+// ----------------------------------------------------------------------------
+// Grid
+// ----------------------------------------------------------------------------
+
+$grid-gutter-width:         20px !default;
+$mobile-breakpoint:			420px;
+
+// ----------------------------------------------------------------------------
+// Navbar
+// ----------------------------------------------------------------------------
+
+$navbar-height:				auto !default;
+$navbar-margin-bottom:		0;
+$navbar-border-radius:		0;
+$navbar-padding-horizontal: 0;
+$navbar-padding-vertical:	0;
+
+// ----------------------------------------------------------------------------
+// Breadcrumbs
+// ----------------------------------------------------------------------------
+
+$breadcrumb-bg:             $tint-1 !default;
+$breadcrumb-color:          $brand-warm-grey !default;
+$breadcrumb-active-color:   $brand-warm-grey !default;
+$breadcrumb-separator:      ">" !default;
+
+// ----------------------------------------------------------------------------
+// Buttons
+// ----------------------------------------------------------------------------
+
+$btn-font-weight:           $bold !default;
+$btn-font-size:             $base-size !default;
+
+$btn-default-color:         $white !default;
+$btn-default-bg:            $brand-warm-grey !default;
+
+$border-radius-base:        20px !default;
+$padding-base-vertical:     0px !default;
+$padding-base-horizontal:   0px !default;
